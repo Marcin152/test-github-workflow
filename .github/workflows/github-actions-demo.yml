@@ -5,7 +5,7 @@ jobs:
        runs-on: ubuntu-latest
        steps:
            - run: python --version
-           - run: status 
+           - run:  git status 
            
            
  
