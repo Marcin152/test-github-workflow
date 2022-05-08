@@ -5,7 +5,9 @@ jobs:
        runs-on: ubuntu-latest
        steps:
            - run: python --version
-           - run:  git status 
+           - uses: actions/checkout@3
+           - run: pip install pylint
+           - run: pylint app.py
            
            
  
