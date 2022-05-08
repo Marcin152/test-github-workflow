@@ -5,4 +5,4 @@ jobs:
        runs-on: ubuntu-latest
        steps:
            - run: python --version
-           
+           - run: pylint app.py
