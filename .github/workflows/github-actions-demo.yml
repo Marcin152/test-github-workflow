@@ -1,0 +1,8 @@
+name: My first Github Workflow
+on: [push]
+jobs:
+   Show-python-version:
+       runs-on: ubuntu-latest
+       steps:
+           - run python --version
+           
