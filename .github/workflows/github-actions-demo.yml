@@ -7,5 +7,6 @@ jobs:
            - run: python --version
            - run: python -m pip install --upgrade pip
            - run: pip install pylint
-           - run: find . -app '*.py' -exec pylint {} \;
+           - run: cd app.py
+           - run: pylint app.py 
  
